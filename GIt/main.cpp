@@ -30,8 +30,7 @@ int main()
             if(!arr[a][b]) n++;
         }
         char c=64+n;
-        if(n) {}
-        else {c=69;}
+        if(!(n)) c=69;
         cout<<c<<endl;
 
     }
